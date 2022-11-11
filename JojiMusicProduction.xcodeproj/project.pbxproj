@@ -171,287 +171,6 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E9604DC889BA838804FC70BF</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxQuickHull.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxQuickHull-master/src/ofxQuickHull.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>3640255FA6DB7FDA60704E6F</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>953AE1DD14E98ED27CFE5BC3</string>
-					<string>E9604DC889BA838804FC70BF</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>8F04C66EF60D13E0D70AA989</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>3640255FA6DB7FDA60704E6F</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>ofxQuickHull-master</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>0B3BBFE10435B6340CDC58F0</key>
-			<dict>
-				<key>fileRef</key>
-				<string>953AE1DD14E98ED27CFE5BC3</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>953AE1DD14E98ED27CFE5BC3</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxQuickHull.cpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxQuickHull-master/src/ofxQuickHull.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>6C6F50E964C9DA751CC2762C</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxMotiveCamera.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxMotive-master/src/ofxMotiveCamera.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>6094D449DEBF562F0A9B64AC</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxMotive.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxMotive-master/src/ofxMotive.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>C86D425F98375B877C09630D</key>
-			<dict>
-				<key>fileRef</key>
-				<string>35BDB0E75E8519CA43F678C9</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>35BDB0E75E8519CA43F678C9</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxMotive.cpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxMotive-master/src/ofxMotive.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E2DF5B0D3B98CF7463556C35</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>VoxelBox.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxMotive-master/src/VoxelBox.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>FCBB19D51CD91EE4E5EA7502</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>Voxel.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxMotive-master/src/Voxel.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>2AF06F4C83B75080E4E724C0</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>F36F58EDA64D35391DCD6918</string>
-					<string>FCBB19D51CD91EE4E5EA7502</string>
-					<string>E2DF5B0D3B98CF7463556C35</string>
-					<string>35BDB0E75E8519CA43F678C9</string>
-					<string>6094D449DEBF562F0A9B64AC</string>
-					<string>6C6F50E964C9DA751CC2762C</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>8554B2761AABC58CC57D9CFE</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>2AF06F4C83B75080E4E724C0</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>ofxMotive-master</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>F36F58EDA64D35391DCD6918</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>VolumeTools.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxMotive-master/src/VolumeTools.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>82E6D9AFF4960DF3BF7C5024</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxCodeJutsu.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxCodeJutsu-master/src/ofxCodeJutsu.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>7646C0F4B367F5C4E13F751D</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>RayJutsu.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxCodeJutsu-master/src/RayJutsu.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E6E8E40B936B6991A156A913</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>MatrixJutsu.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxCodeJutsu-master/src/MatrixJutsu.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>2550D0741060DE159EE217BD</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>689960EB6BD1AAF23D88F9BC</string>
-					<string>E6E8E40B936B6991A156A913</string>
-					<string>7646C0F4B367F5C4E13F751D</string>
-					<string>82E6D9AFF4960DF3BF7C5024</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>B92976AB9953D643BB0A853C</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>2550D0741060DE159EE217BD</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>ofxCodeJutsu-master</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>689960EB6BD1AAF23D88F9BC</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>GeometryJutsu.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxCodeJutsu-master/src/GeometryJutsu.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
 			<key>C5E51D999F9F9E1D1A6CF847</key>
 			<dict>
 				<key>fileRef</key>
@@ -1712,9 +1431,6 @@ fi
 						<string>../../../addons/ofxAudioUnit-master/src</string>
 						<string>../../../addons/ofxAudioUnit-master/src/CAPublicUtility</string>
 						<string>../../../addons/ofxAudioUnit-master/src/TPCircularBuffer</string>
-						<string>../../../addons/ofxCodeJutsu-master/src</string>
-						<string>../../../addons/ofxMotive-master/src</string>
-						<string>../../../addons/ofxQuickHull-master/src</string>
 						<string>../../../addons/ofxXmlSettings/libs</string>
 						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
@@ -1765,9 +1481,6 @@ fi
 						<string>../../../addons/ofxAudioUnit-master/src</string>
 						<string>../../../addons/ofxAudioUnit-master/src/CAPublicUtility</string>
 						<string>../../../addons/ofxAudioUnit-master/src/TPCircularBuffer</string>
-						<string>../../../addons/ofxCodeJutsu-master/src</string>
-						<string>../../../addons/ofxMotive-master/src</string>
-						<string>../../../addons/ofxQuickHull-master/src</string>
 						<string>../../../addons/ofxXmlSettings/libs</string>
 						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
@@ -1806,9 +1519,6 @@ fi
 				<key>children</key>
 				<array>
 					<string>0B936CEF331E20998B00B64B</string>
-					<string>B92976AB9953D643BB0A853C</string>
-					<string>8554B2761AABC58CC57D9CFE</string>
-					<string>8F04C66EF60D13E0D70AA989</string>
 					<string>1F4FB5C423662B96ADFDCC0B</string>
 				</array>
 				<key>isa</key>
@@ -4579,9 +4289,6 @@ fi
 						<string>../../../addons/ofxAudioUnit-master/src</string>
 						<string>../../../addons/ofxAudioUnit-master/src/CAPublicUtility</string>
 						<string>../../../addons/ofxAudioUnit-master/src/TPCircularBuffer</string>
-						<string>../../../addons/ofxCodeJutsu-master/src</string>
-						<string>../../../addons/ofxMotive-master/src</string>
-						<string>../../../addons/ofxQuickHull-master/src</string>
 						<string>../../../addons/ofxXmlSettings/libs</string>
 						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
@@ -4649,9 +4356,6 @@ fi
 						<string>../../../addons/ofxAudioUnit-master/src</string>
 						<string>../../../addons/ofxAudioUnit-master/src/CAPublicUtility</string>
 						<string>../../../addons/ofxAudioUnit-master/src/TPCircularBuffer</string>
-						<string>../../../addons/ofxCodeJutsu-master/src</string>
-						<string>../../../addons/ofxMotive-master/src</string>
-						<string>../../../addons/ofxQuickHull-master/src</string>
 						<string>../../../addons/ofxXmlSettings/libs</string>
 						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
@@ -4703,8 +4407,6 @@ fi
 					<string>E92130B7AC33FE808C650247</string>
 					<string>FBDB899BE23234AF5436EAB1</string>
 					<string>1A4C0FC8DBC624A85B82BB7A</string>
-					<string>C86D425F98375B877C09630D</string>
-					<string>0B3BBFE10435B6340CDC58F0</string>
 					<string>933A2227713C720CEFF80FD9</string>
 					<string>9D44DC88EF9E7991B4A09951</string>
 					<string>5A4349E9754D6FA14C0F2A3A</string>
@@ -4818,9 +4520,6 @@ fi
 						<string>../../../addons/ofxAudioUnit-master/src</string>
 						<string>../../../addons/ofxAudioUnit-master/src/CAPublicUtility</string>
 						<string>../../../addons/ofxAudioUnit-master/src/TPCircularBuffer</string>
-						<string>../../../addons/ofxCodeJutsu-master/src</string>
-						<string>../../../addons/ofxMotive-master/src</string>
-						<string>../../../addons/ofxQuickHull-master/src</string>
 						<string>../../../addons/ofxXmlSettings/libs</string>
 						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
@@ -4881,9 +4580,6 @@ fi
 						<string>../../../addons/ofxAudioUnit-master/src</string>
 						<string>../../../addons/ofxAudioUnit-master/src/CAPublicUtility</string>
 						<string>../../../addons/ofxAudioUnit-master/src/TPCircularBuffer</string>
-						<string>../../../addons/ofxCodeJutsu-master/src</string>
-						<string>../../../addons/ofxMotive-master/src</string>
-						<string>../../../addons/ofxQuickHull-master/src</string>
 						<string>../../../addons/ofxXmlSettings/libs</string>
 						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
