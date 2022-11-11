@@ -1,0 +1,5 @@
+ofxAudioUnit-master
+ofxCodeJutsu-master
+ofxMotive-master
+ofxQuickHull-master
+ofxXmlSettings
