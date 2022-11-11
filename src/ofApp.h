@@ -4,6 +4,8 @@
 #include "Slider.hpp"
 #include "Dial.hpp"
 #include "ofMain.h"
+#include "ofxRemoteUIServer.h"
+#include "ofxMotive.h"
 
 class ofApp : public ofBaseApp{
     
@@ -23,6 +25,9 @@ public:
     void windowResized(int w, int h);
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
+
+    ofxMotive motive;
+    void newDataReceived(MotiveEventArgs& args);
     
     void trackerInteractions();
     bool inRange(float tx, float ty);

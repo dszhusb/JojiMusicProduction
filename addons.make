@@ -1,2 +1,3 @@
-ofxAudioUnit-master
+ofxAudioUnit
+ofxMotive
 ofxXmlSettings
