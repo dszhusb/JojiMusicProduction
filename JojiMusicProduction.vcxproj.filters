@@ -106,6 +106,45 @@
 		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src\ofxMotiveStatus.cpp">
 			<Filter>addons\ofxMotive\src</Filter>
 		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscBundle.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscMessage.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscParameterSync.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscReceiver.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscSender.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtils.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip\win32</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocket.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip\win32</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\src\ofxXmlPoco.cpp">
+			<Filter>addons\ofxPoco\src</Filter>
+		</ClCompile>
 		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
 			<Filter>addons\ofxXmlSettings\src</Filter>
 		</ClCompile>
@@ -117,6 +156,39 @@
 		</ClCompile>
 		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
 			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUI.cpp">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIClient.cpp">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUINeigbors.cpp">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.cpp">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIServer.cpp">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUISimpleNotifications.cpp">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIWebServer.cpp">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\OscQueryServerMgr.cpp">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\RemoteParam.cpp">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\RUIWebBinary.cpp">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\uriencode.cpp">
+			<Filter>addons\ofxRemoteUI\src</Filter>
 		</ClCompile>
 	</ItemGroup>
 	<ItemGroup>
@@ -144,6 +216,36 @@
 		<Filter Include="addons\ofxMotive\src">
 			<UniqueIdentifier>{CD35FC90-56D7-5272-EF7F-12E4}</UniqueIdentifier>
 		</Filter>
+		<Filter Include="addons\ofxOsc">
+			<UniqueIdentifier>{D91DCA33-6E5D-4481-2AEC-9FBB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\src">
+			<UniqueIdentifier>{B9DD339A-D93D-92A1-0A2F-4B41}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs">
+			<UniqueIdentifier>{99ECA1D9-873F-4622-8FC0-FC7B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack">
+			<UniqueIdentifier>{D3A98534-1602-4FEF-57A6-6593}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack\src">
+			<UniqueIdentifier>{BFB5BB47-98C8-BBCB-3066-1046}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack\src\ip">
+			<UniqueIdentifier>{5A029128-EB41-95C5-CBC0-CDED}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack\src\ip\win32">
+			<UniqueIdentifier>{79DFDFE2-400B-8654-3675-01A3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack\src\osc">
+			<UniqueIdentifier>{EDACB89C-9768-9551-4D41-B590}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPoco">
+			<UniqueIdentifier>{3256AE3E-9B29-EA27-C842-CE6B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPoco\src">
+			<UniqueIdentifier>{C7D4269D-D8A9-A7BB-531B-98DA}</UniqueIdentifier>
+		</Filter>
 		<Filter Include="addons\ofxXmlSettings">
 			<UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
 		</Filter>
@@ -152,6 +254,12 @@
 		</Filter>
 		<Filter Include="addons\ofxXmlSettings\libs">
 			<UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxRemoteUI">
+			<UniqueIdentifier>{FF237FDE-9F65-85A9-DD4E-A4FF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxRemoteUI\src">
+			<UniqueIdentifier>{72FBF224-0DA8-E854-81E1-9CA8}</UniqueIdentifier>
 		</Filter>
 	</ItemGroup>
 	<ItemGroup>
@@ -260,11 +368,116 @@
 		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src\ofxMotiveStatus.h">
 			<Filter>addons\ofxMotive\src</Filter>
 		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOsc.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscArg.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscBundle.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscMessage.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscParameterSync.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscReceiver.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscSender.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\NetworkingUtils.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\PacketListener.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\TimerListener.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\UdpSocket.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\MessageMappingOscPacketListener.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscException.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscHostEndianness.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscPacketListener.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\src\ofxXmlPoco.h">
+			<Filter>addons\ofxPoco\src</Filter>
+		</ClInclude>
 		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\src\ofxXmlSettings.h">
 			<Filter>addons\ofxXmlSettings\src</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs\tinyxml.h">
 			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\dirent_vs.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofExistsTest.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUI.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIClient.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUINeigbors.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIServer.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIServerMacros.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUISimpleNotifications.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIVars.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIWebServer.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\OscQueryServerMgr.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\RemoteParam.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\uriencode.h">
+			<Filter>addons\ofxRemoteUI\src</Filter>
 		</ClInclude>
 	</ItemGroup>
 	<ItemGroup>
