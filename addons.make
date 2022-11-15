@@ -1,6 +1,3 @@
 ofxAudioUnit
 ofxMotive
-ofxOsc
-ofxPoco
 ofxXmlSettings
-ofxRemoteUI

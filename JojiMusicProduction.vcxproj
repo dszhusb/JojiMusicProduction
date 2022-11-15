@@ -104,18 +104,16 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\CAPublicUtility;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\TPCircularBuffer;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\libs\poco\include;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\CAPublicUtility;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\TPCircularBuffer;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
-			<PreprocessorDefinitions>OSC_HOST_LITTLE_ENDIAN</PreprocessorDefinitions>
-			<AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
 		</ClCompile>
 		<Link>
 			<GenerateDebugInformation>true</GenerateDebugInformation>
 			<SubSystem>Console</SubSystem>
 			<RandomizedBaseAddress>false</RandomizedBaseAddress>
-			<AdditionalDependencies>%(AdditionalDependencies);PocoCryptomdd.lib;PocoDatamdd.lib;PocoDataSQLitemdd.lib;PocoFoundationmdd.lib;PocoJSONmdd.lib;PocoNetmdd.lib;PocoNetSSLmdd.lib;PocoPDFmdd.lib;PocoUtilmdd.lib;PocoXMLmdd.lib;PocoZipmdd.lib;iphlpapi.lib</AdditionalDependencies>
-			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\libs\poco\lib\vs\Win32\Debug;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco</AdditionalLibraryDirectories>
+			<AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
 		</Link>
 		<PostBuildEvent />
 	</ItemDefinitionGroup>
@@ -126,19 +124,17 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\CAPublicUtility;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\TPCircularBuffer;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\libs\poco\include;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\CAPublicUtility;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\TPCircularBuffer;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<MultiProcessorCompilation>true</MultiProcessorCompilation>
 			<ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
-			<PreprocessorDefinitions>OSC_HOST_LITTLE_ENDIAN</PreprocessorDefinitions>
-			<AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
 		</ClCompile>
 		<Link>
 			<GenerateDebugInformation>true</GenerateDebugInformation>
 			<SubSystem>Console</SubSystem>
 			<RandomizedBaseAddress>false</RandomizedBaseAddress>
-			<AdditionalDependencies>%(AdditionalDependencies);PocoCryptomdd.lib;PocoDatamdd.lib;PocoDataSQLitemdd.lib;PocoFoundationmdd.lib;PocoJSONmdd.lib;PocoNetmdd.lib;PocoNetSSLmdd.lib;PocoPDFmdd.lib;PocoUtilmdd.lib;PocoXMLmdd.lib;PocoZipmdd.lib;iphlpapi.lib</AdditionalDependencies>
-			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\libs\poco\lib\vs\x64\Debug;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco</AdditionalLibraryDirectories>
+			<AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
 		</Link>
 		<PostBuildEvent />
 	</ItemDefinitionGroup>
@@ -148,12 +144,10 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\CAPublicUtility;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\TPCircularBuffer;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\libs\poco\include;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\CAPublicUtility;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\TPCircularBuffer;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<MultiProcessorCompilation>true</MultiProcessorCompilation>
 			<ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
-			<PreprocessorDefinitions>OSC_HOST_LITTLE_ENDIAN</PreprocessorDefinitions>
-			<AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
 		</ClCompile>
 		<Link>
 			<IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
@@ -162,8 +156,8 @@
 			<OptimizeReferences>true</OptimizeReferences>
 			<EnableCOMDATFolding>true</EnableCOMDATFolding>
 			<RandomizedBaseAddress>false</RandomizedBaseAddress>
-			<AdditionalDependencies>%(AdditionalDependencies);PocoCryptomd.lib;PocoDatamd.lib;PocoDataSQLitemd.lib;PocoFoundationmd.lib;PocoJSONmd.lib;PocoNetmd.lib;PocoNetSSLmd.lib;PocoPDFmd.lib;PocoUtilmd.lib;PocoXMLmd.lib;PocoZipmd.lib;iphlpapi.lib</AdditionalDependencies>
-			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\libs\poco\lib\vs\Win32\Release;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco</AdditionalLibraryDirectories>
+			<AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
 		</Link>
 		<PostBuildEvent />
 	</ItemDefinitionGroup>
@@ -173,11 +167,9 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\CAPublicUtility;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\TPCircularBuffer;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\libs\poco\include;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\CAPublicUtility;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxAudioUnit\src\TPCircularBuffer;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
-			<PreprocessorDefinitions>OSC_HOST_LITTLE_ENDIAN</PreprocessorDefinitions>
-			<AdditionalOptions>-DPOCO_STATIC</AdditionalOptions>
 		</ClCompile>
 		<Link>
 			<IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
@@ -186,8 +178,8 @@
 			<OptimizeReferences>true</OptimizeReferences>
 			<EnableCOMDATFolding>true</EnableCOMDATFolding>
 			<RandomizedBaseAddress>false</RandomizedBaseAddress>
-			<AdditionalDependencies>%(AdditionalDependencies);PocoCryptomd.lib;PocoDatamd.lib;PocoDataSQLitemd.lib;PocoFoundationmd.lib;PocoJSONmd.lib;PocoNetmd.lib;PocoNetSSLmd.lib;PocoPDFmd.lib;PocoUtilmd.lib;PocoXMLmd.lib;PocoZipmd.lib;iphlpapi.lib</AdditionalDependencies>
-			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\libs\poco\lib\vs\x64\Release;..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco</AdditionalLibraryDirectories>
+			<AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
 		</Link>
 		<PostBuildEvent />
 	</ItemDefinitionGroup>
@@ -225,34 +217,10 @@
 		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src\ofxMotiveMarker.cpp" />
 		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src\ofxMotiveReconstruction.cpp" />
 		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src\ofxMotiveStatus.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscBundle.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscMessage.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscParameterSync.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscReceiver.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscSender.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtils.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocket.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\src\ofxXmlPoco.cpp" />
 		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\src\ofxXmlSettings.cpp" />
 		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs\tinyxml.cpp" />
 		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs\tinyxmlerror.cpp" />
 		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs\tinyxmlparser.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUI.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIClient.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUINeigbors.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIServer.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUISimpleNotifications.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIWebServer.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\OscQueryServerMgr.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\RemoteParam.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\RUIWebBinary.cpp" />
-		<ClCompile Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\uriencode.cpp" />
 	</ItemGroup>
 	<ItemGroup>
 		<ClInclude Include="src\ofApp.h" />
@@ -289,43 +257,8 @@
 		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src\ofxMotiveMarker.h" />
 		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src\ofxMotiveReconstruction.h" />
 		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxMotive\src\ofxMotiveStatus.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOsc.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscArg.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscBundle.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscMessage.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscParameterSync.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscReceiver.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\src\ofxOscSender.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\NetworkingUtils.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\PacketListener.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\TimerListener.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\ip\UdpSocket.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\MessageMappingOscPacketListener.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscException.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscHostEndianness.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscPacketListener.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxPoco\src\ofxXmlPoco.h" />
 		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\src\ofxXmlSettings.h" />
 		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxXmlSettings\libs\tinyxml.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\dirent_vs.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofExistsTest.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUI.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIClient.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUINeigbors.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIofParamaterSync.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIServer.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIServerMacros.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUISimpleNotifications.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIVars.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\ofxRemoteUIWebServer.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\OscQueryServerMgr.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\RemoteParam.h" />
-		<ClInclude Include="..\..\..\Downloads\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\addons\ofxRemoteUI\src\uriencode.h" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">
