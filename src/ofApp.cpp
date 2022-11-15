@@ -2,21 +2,6 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    //Motive Setup
-    ofSetFrameRate(120);
-
-    RUI_SETUP();
-    motive.setupParams();
-    RUI_LOAD_FROM_XML();
-
-    // Add a listener for new data 
-    ofAddListener(motive.newDataReceived, this, &ofApp::newDataReceived);
-
-    // Setup and start motive
-    motive.setCalibrationPath(ofToDataPath("calibration.cal"));
-    motive.setProfilePath(ofToDataPath("profile.motive"));
-    motive.start();
-
     //Render Settings
     ofEnableSmoothing();
     ofSetCircleResolution(20);
@@ -52,16 +37,6 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    //Motive Output
-    // We can also call it to receive information ...
-    //vector<MotiveOutput> out = motive.get3DPoints();
-    //stringstream ss;
-    //ss << "Motive Output\n";
-    //for (int i = 0; i < out.size(); i++) {
-    //	ss << "\t" << out[i].position << "\n";
-    //}
-    //if (out.size() > 0) cout << ss.str() << endl;
-
     kettle.update();
     
     for(int i=0; i<sliders.size(); i++) {
@@ -174,18 +149,4 @@ void ofApp::gotMessage(ofMessage msg){
 //--------------------------------------------------------------
 void ofApp::dragEvent(ofDragInfo dragInfo){ 
     
-}
-
-void ofApp::newDataReceived(MotiveEventArgs& args) {
-
-    // Receive data from the listener.
-
-    stringstream ss;
-    ss << "Motive Output\n";
-    for (int i = 0; i < args.markers.size(); i++) {
-        ss << "\t" << args.markers[i].position << "\n";
-        ss << "\t" << args.markers[i].cuid.HighBits() << "\t" << args.markers[i].cuid.LowBits() << "\n";
-    }
-    if (args.markers.size() > 0) cout << ss.str() << endl;
-
 }
