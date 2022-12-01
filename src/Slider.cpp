@@ -14,7 +14,7 @@ void Slider::setup(float sx, float sy, float sr) {
     y = sy;
     rotation = 0;
     percentage = 50;
-    length = 200;
+    length = 128;
 }
 
 void Slider::update() {
@@ -23,11 +23,21 @@ void Slider::update() {
 
 void Slider::draw() {
     vector<float> disps = calcDisp();
-    ofSetColor(200);
-    ofDrawLine(x - disps[0], y - disps[1], x + disps[0], y + disps[1]);
+    
+    ofPushMatrix();
+    ofTranslate(x,y);
     
     ofSetColor(255);
-    ofDrawCircle(x + disps[2], y + disps[3], 10);
+    ofDrawRectRounded(-disps[0],-disps[1]-32,length,64,32);
+    ofSetColor(10,8,18);
+    ofDrawRectRounded(-disps[0] + 1,-disps[1]-31,length-2,62,32);
+    
+    ofSetColor(255);
+    ofDrawCircle(disps[2]+32,disps[3],32);
+    ofSetColor(10,8,18);
+    ofDrawCircle(disps[2]+32,disps[3],31);
+                    
+    ofPopMatrix();
 }
 
 void Slider::updatePercentage(float p) {
@@ -54,7 +64,7 @@ float Slider::calcSliderMov(float mouseX, float mouseY, float per) {
     float ny = y - disps[1];
     float dist = sqrt(pow(nx - mouseX, 2) + pow(ny - mouseY, 2));
     float theta2 = atan(noNan(ny - mouseY)/noNan(nx - mouseX));
-    cout << theta2 << endl;
+//    cout << theta2 << endl;
     float dTheta = theta2 - (rotation * PI) / 180;
     float result = (dist * cos(dTheta)) / 2;
     return constrain(result);

@@ -2,11 +2,19 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+    //udp setup
+    ofxUDPSettings settings;
+    settings.receiveOn("192.168.0.15", 11999);
+    settings.blocking = false;
+    
+    ofxUDPManager udpConnection;
+    udpConnection.Setup(settings);
+    
     //Render Settings
     ofEnableSmoothing();
     ofSetCircleResolution(20);
     ofSetLineWidth(5);
-    ofSetBackgroundColor(0);
+    ofSetBackgroundColor(10,8,18);
     
     //Interaction Defaults
     actRange = 40;
@@ -14,9 +22,9 @@ void ofApp::setup(){
     //Kettle Setup
     kettle.setup();
     
+    //Slider Setup
     srand((unsigned) time(NULL));
     
-    //Slider Setup
     for (int i = 0; i < 2; i++) {
         Slider s;
         float rX = static_cast<float>(rand() % 100) /100 * ofGetWidth();
@@ -26,17 +34,35 @@ void ofApp::setup(){
     }
     
     //Dials
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < 1; i++) {
         Dial d;
         float rX = static_cast<float>(rand() % 100) /100 * ofGetWidth();
         float rY = static_cast<float>(rand() % 100) /100 * ofGetHeight();
         d.setup(rX, rY, 0);
         dials.push_back(d);
     }
+    
+    //Font
+    margin = 30;
+    colWidth = 64;
+    gutter = 20;
+    big.load("Univers-light-normal.ttf", 16 * 0.75);
+    little.load("Univers-light-normal.ttf", 6 * 0.75);
+    
+    //Load Images
+    grainTexture.load("grainTexture.png");
+    grainTexture.resize(ofGetWidth(), ofGetHeight());
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
+    //UDP
+    char udpMessage[1000];
+    udpConnection.Receive(udpMessage,1000);
+    string message = udpMessage;
+//    std::cout << message << endl;
+    
+    //Interactions
     kettle.update();
     
     for(int i=0; i<sliders.size(); i++) {
@@ -46,7 +72,7 @@ void ofApp::update(){
     for(int i=0; i<dials.size(); i++) {
         dials[i].update();
     }
-    
+
     trackerInteractions();
 }
 
@@ -63,7 +89,7 @@ void ofApp::trackerInteractions() {
         for (int i=0; i<dials.size(); i++) {
             vector<float> target = dials[i].getLocation();
             if (inRange(target[0], target[1])) {
-                cout << kettle.rotation << endl;
+//                cout << kettle.rotation << endl;
                 dials[i].updatePercentage(kettle.rotation);
             }
         }
@@ -90,6 +116,42 @@ void ofApp::draw(){
     }
     
     kettle.draw();
+    
+    drawConstantText();
+    
+    ofEnableAlphaBlending();
+    ofSetColor(255, 255, 255, 255*0.225);
+    grainTexture.draw(0,0);
+    ofDisableAlphaBlending();
+}
+
+void ofApp::drawConstantText() {
+    
+    float block = (2 * colWidth + gutter);
+    
+    //Blockers
+    ofSetColor(10,8,18);
+    ofDrawRectangle(margin,0,margin+block+gutter+block,64);
+    ofDrawRectangle(margin,494,margin+block+gutter+block,64);
+    
+    //Text
+    ofSetColor(255);
+    text = "SAMPLES";
+    float xDisp = margin;
+    big.drawString(text, xDisp + block/2 - big.stringWidth(text)/2, 20 + big.stringHeight(text));
+    
+    text = "EDITED SOUNDS";
+    xDisp += block + gutter;
+    big.drawString(text, xDisp + block/2 - big.stringWidth(text)/2, 20 + big.stringHeight(text));
+    
+    //Lines
+    ofSetLineWidth(2);
+    ofDrawLine(margin,64,margin + block,64);
+    ofDrawLine(xDisp,64,xDisp + block,64);
+    ofDrawLine(margin,494,margin + block,494);
+    ofDrawLine(xDisp,494,xDisp + block,494);
+    
+    ofDrawLine(0,630,ofGetWidth(),630);
 }
 
 //--------------------------------------------------------------

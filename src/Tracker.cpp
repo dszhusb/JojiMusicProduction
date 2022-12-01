@@ -19,7 +19,7 @@ void Tracker::setup() {
 }
 
 void Tracker::update() {
-    
+    std::cout << rotation << endl;
 }
 
 void Tracker::updateOrientation(float nx, float ny, float nr) {

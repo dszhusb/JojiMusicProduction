@@ -1,2 +1,3 @@
-ofxAudioUnit-master
+ofxMaxim
+ofxNetwork
 ofxXmlSettings
